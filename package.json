@@ -19,17 +19,19 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "5.0.1",
+    "style-dictionary": "^3.7.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "build": "react-scripts build && build-storybook && npx chromatic --project-token=cc3f99ebf83a",
+    "build": "react-scripts build && build-storybook && style-dictionary build",
     "start": "react-scripts start",
     "storybook": "start-storybook -p 6006",
     "chromatic": "chromatic",
     "build-storybook": "build-storybook",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "init-msw": "msw init public/"
+    "init-msw": "msw init public/",
+    "generate": "style-dictionary build"
   },
   "eslintConfig": {
     "extends": [
