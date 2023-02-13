@@ -28,10 +28,10 @@
     "storybook": "start-storybook -p 6006",
     "chromatic": "chromatic",
     "build-storybook": "build-storybook",
+    "build-styles": "style-dictionary build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "init-msw": "msw init public/",
-    "generate": "style-dictionary build"
+    "init-msw": "msw init public/"
   },
   "eslintConfig": {
     "extends": [
