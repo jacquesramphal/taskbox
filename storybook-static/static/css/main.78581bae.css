@@ -2,14 +2,14 @@
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
-  border-radius: 4em;
+  border-radius: 3em;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
 }
 .storybook-button--primary {
-  color: pink;
-  background-color: red;
+  color: white;
+  background-color: #1ea7fd;
 }
 .storybook-button--secondary {
   color: #333;
@@ -57,8 +57,6 @@ button + button {
 }
 
 section {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 14px;
   line-height: 24px;
   padding: 48px 20px;
   margin: 0 auto;
@@ -96,7 +94,6 @@ li {
 .tip {
   display: inline-block;
   border-radius: 1em;
-  font-size: 11px;
   line-height: 12px;
   font-weight: 700;
   background: #e7fdd8;
@@ -107,7 +104,6 @@ li {
 }
 
 .tip-wrapper {
-  font-size: 13px;
   line-height: 20px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -127,4 +123,4 @@ li {
 }
 
 
-/*# sourceMappingURL=main.4932ad6b.css.map*/
+/*# sourceMappingURL=main.78581bae.css.map*/

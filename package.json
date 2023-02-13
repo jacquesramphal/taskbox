@@ -22,14 +22,14 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "build": "react-scripts build && build-storybook && npx chromatic --project-token=cc3f99ebf83a",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "storybook": "start-storybook -p 6006",
+    "chromatic": "chromatic",
+    "build-storybook": "build-storybook",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "init-msw": "msw init public/",
-    "chromatic": "chromatic"
+    "init-msw": "msw init public/"
   },
   "eslintConfig": {
     "extends": [

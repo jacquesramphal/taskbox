@@ -10,11 +10,12 @@ body {
   padding: 0;
   font-size: 100%;
   outline: none;
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: 400;
   color: #333;
   font-size: 16px;
-  background-color: #26c6da;
+  background-color: white;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -29,14 +30,17 @@ label {
   border: 0;
   font-weight: normal;
   font-style: normal;
-  font-size: 100%;
   line-height: 1;
   font-family: inherit;
   vertical-align: baseline;
   *vertical-align: middle;
   line-height: normal;
   *overflow: visible;
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p, li{
+  font-size: 1.2rem;
+  line-height: 150%;
 }
 
 button::-moz-focus-inner,
@@ -53,74 +57,11 @@ input[type="submit"] {
   -webkit-appearance: button;
 }
 
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(359deg);
-  }
-}
-
-@keyframes glow {
-  0%,
-  100% {
-    opacity: 1;
-  }
-
-  50% {
-    opacity: 0.5;
-  }
-}
-
-@font-face {
-  font-family: "Nunito Sans";
-  font-style: italic;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v6/pe0oMImSLYBIv1o4X1M8cce4E9lKcw.ttf)
-    format("truetype");
-}
-
-@font-face {
-  font-family: "Nunito Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I94.ttf)
-    format("truetype");
-}
-
-@font-face {
-  font-family: "Nunito Sans";
-  font-style: normal;
-  font-weight: 800;
-  src: url(https://fonts.gstatic.com/s/nunitosans/v6/pe03MImSLYBIv1o4X1M8cc8aBc5tU1Q.ttf)
-    format("truetype");
-}
-
-.type-light {
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-}
-
-.type-bold {
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 800;
-}
-
-.type-italic {
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
 input[type="text"],
 input[type="email"],
 input[type="password"],
 textarea {
-  font-size: 14px;
   line-height: 20px;
-  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: 400;
   padding: 0.75rem 0;
   line-height: 1.5rem !important;
@@ -160,7 +101,6 @@ textarea {
 }
 
 .checkbox input[type="checkbox"]:checked + span:before {
-  font-size: 16px;
   line-height: 24px;
   box-shadow: none;
   color: #2cc5d2;
@@ -209,7 +149,6 @@ textarea {
   transform: translate3d(0, -50%, 0);
   background: transparent;
   color: #aaa;
-  font-size: 1em;
   height: 1em;
   position: absolute;
   top: 50%;
@@ -257,7 +196,6 @@ textarea {
   text-transform: uppercase;
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
-  font-size: 11px;
   padding-left: 15px;
   line-height: 40px;
   background: #f8f8f8;
@@ -272,7 +210,6 @@ textarea {
 }
 
 .list-item {
-  font-size: 14px;
   line-height: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -306,7 +243,6 @@ textarea {
   text-align: center;
   transition: all 200ms ease-in;
   color: #eee;
-  font-size: 16px;
   line-height: 3rem;
   outline: none;
 }
@@ -413,7 +349,6 @@ textarea {
 }
 
 .wrapper-message .title-message {
-  font-size: 16px;
   line-height: 24px;
   font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 800;
@@ -421,7 +356,6 @@ textarea {
 }
 
 .wrapper-message .subtitle-message {
-  font-size: 14px;
   line-height: 20px;
   color: #4a5568;
 }
@@ -444,7 +378,6 @@ textarea {
 }
 
 .page.lists-show nav .title-page {
-  font-size: 20px;
   line-height: 24px;
   line-height: 2rem;
   cursor: pointer;
