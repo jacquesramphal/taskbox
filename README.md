@@ -1,1 +1,1 @@
-[style-dictionary-readme](style-dictionary-readme)
+[style-dictionary-readme](docs/style-dictionary-readme)
