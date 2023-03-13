@@ -1,3 +1,6 @@
+/* Importing the css file */
+@import "/build/css/_variables.css";
+
 .storybook-button {
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -9,7 +12,8 @@
 }
 .storybook-button--primary {
   color: white;
-  background-color: red;
+  /* Applying the CSS Variable from the tokens file */
+  background-color: var(--sd-global-theme-primary);
 }
 .storybook-button--secondary {
   color: #333;

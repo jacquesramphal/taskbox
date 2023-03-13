@@ -25,8 +25,9 @@
   "scripts": {
     "build": "react-scripts build && build-storybook && style-dictionary build",
     "start": "react-scripts start",
-    "storybook": "start-storybook -p 6006",
     "chromatic": "chromatic",
+    "storybook": "start-storybook -p 6006",
+    "sd-build": "style-dictionary build",
     "build-storybook": "build-storybook",
     "build-styles": "style-dictionary build",
     "test": "react-scripts test",
