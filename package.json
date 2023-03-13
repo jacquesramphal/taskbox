@@ -25,7 +25,7 @@
   "scripts": {
     "build": "react-scripts build && build-storybook && style-dictionary build",
     "start": "react-scripts start",
-    "chromatic": "chromatic",
+    "chromatic": "npx chromatic --project-token=cc3f99ebf83a",
     "storybook": "start-storybook -p 6006",
     "sd-build": "style-dictionary build",
     "build-storybook": "build-storybook",
