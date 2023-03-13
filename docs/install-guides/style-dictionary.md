@@ -1,4 +1,4 @@
-# **Continuous Integration - Figma Tokens sync with Github**
+# Continuous Integration - Figma Tokens sync with Github
 
 ### **Problem**
 
