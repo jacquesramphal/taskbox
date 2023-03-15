@@ -17,9 +17,10 @@
 - See Change reflected in Storybook, Figma Storybook Connect
 
 **From Dev**
-- Push a change to a token to dev/main
-- Trigger and see build in Chromatic
-- Approve or deny
+- Push a change to a token.json file to dev/main
+- Trigger and see build in Chromatic (chromatic - optional)
+- Approve or deny (chromatic - optional)
 - From figma, pull latest changes using tokens plugin
+- Apply changes to FOUNDATIONS PAGE only
 - See changes reflected in design
 
