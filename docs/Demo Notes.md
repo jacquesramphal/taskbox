@@ -24,3 +24,18 @@
 - Apply changes to FOUNDATIONS PAGE only
 - See changes reflected in design
 
+**Working on MAIN**
+- Make a change (in figma or code), push to main
+- Optional Chromatic flow
+	- Yarn chromatic to trigger a build on chromatic dashboard
+	- Approve Chromatic build preview, check for regressions
+- Pull changes into figma/dev depending on where you opened the PR from
+
+**Working on Dev**
+- Make a change, push to dev and Open a PR
+- Optional Chromatic flow
+	- Yarn chromatic to trigger a build on chromatic dashboard
+	- Approve Chromatic build preview, check for regressions
+- Approve and merge PR
+- Pull changes into figma/dev depending on where you opened the PR from
+- See reflected in files
