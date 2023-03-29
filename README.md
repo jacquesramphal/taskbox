@@ -12,8 +12,7 @@ The key touchpoints include:
 
 This is a work in progress.
 
-* Read more in the [docs](https://myplanet.jira.com/l/cp/KkAFmysY).
-* Check out the [git repo](https://github.com/jacquesramphal/taskbox).
+* Read more in the [docs](/docs).
 
 ---
 

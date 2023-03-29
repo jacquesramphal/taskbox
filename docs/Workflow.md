@@ -1,3 +1,15 @@
+%%Add consistent structure to each section. eg. "Problem, Solution, Tips, Links"%%
+
+[1. Design Estimation & Tracking](/docs/Workflow.md#1-design-estimation--tracking)
+
+[2. VQA Jira Process](/docs/Workflow.md#2-vqa-jira-process)
+
+[3. Initial Baseline setting with Figma & Storybook](/docs/Workflow.md#3-initial-baseline-setting-with-figma--storybook)
+
+[4. Continuous Integration with Figma Tokens synced with github](/docs/Workflow.md#4-continuous-integration-with-figma-tokens-synced-with-github)
+
+---
+
 # **1. Design Estimation & Tracking**
 
 **The Problem**
@@ -51,10 +63,11 @@ Tickets should not sit in a VQA column; Designers should be aware of tickets in 
 	- Attach QA notes on ticket in Jira with supporting visuals if needed
 4.  Once Designer gives their approval the ticket moves to Code Review
 
-> Important
+> **Important**
 > Typically we dont account for VQA in our DoD. Visual polish is part of a ticket's acceptance criteria. This means when estimating, we may need to take on less tickets per sprint, but as a result we will deliver more complete tickets each sprint, lessening the need to revisit and refactor tickets during User Acceptance Testing (UAT) sprints later in the project. Sometimes due to timelines, we never get to this step. This significantly impacts the quality of the work we deliver.
 
 See this [template jira board]() with an inline VQA column
+%%TBD template%%
 
 ---
 
@@ -74,6 +87,10 @@ In order to work more closely, designers and developers need to have a shared un
 - A Designer can connect to a main or dev branch to see the latest or in progress states of the component from figma.
 
 See the [installation guide for this step]()
+%%TBD install guide%%
+
+%%Connections made to components in a main library will carry over to new libraries. This is effective for the main storybook instance of composable, but would require designers to relinkstories depending on the instance of storybook that is created. There may be a way to bulk swap the storybook id in code, is this possible in figma?%%
+
 
 ---
 
@@ -87,3 +104,25 @@ This guide is intended to be a stepping stone towards more automation in the VQA
 - Design can make changes to built components using variables
 
 See the [installation guide for this step]()
+%%TBD install guide%%
+
+---
+
+# 5.  Regression testing with Storybook Chromatic (or Virtuoso)
+
+#### Using Chromatic plugin for Storybook
+
+-   Storybook and Chromatic setup allowing designers to vet changes and approve new builds
+-   Developer (or designer) pushes changes to dev branch, a chromatic build is generated
+-   New review items are generated each time a new build is created.
+    -   A review process should be defined to allow changes to be reviewed regularly and approved before merging to main branch
+-   Comparison overlays are generated allowing designers and QA to catch regressions in builds
+
+See the [detailed steps for Chromatic]()
+%%TBD link to steps%%
+
+#### Using Virtuoso
+
+-   Automated regression testing can be setup to catch visual bugs without the need for designer review
+- Visual snapshot testing requires input to determine threshold to trigger alerts
+%%TBD - Need to investigate visual reg testing using visual baselines from figma - See virtuoso usage guide%%
