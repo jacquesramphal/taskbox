@@ -9,16 +9,17 @@
   cursor: pointer;
   display: inline-block;
   line-height: var(--sd-global-line-heights-0);
+  border: 1px solid var(--sd-global-theme-primary);
+
 }
+
 .storybook-button--primary {
-  color: white;
-  /* Applying the CSS Variable from the tokens file */
+  color: var(--sd-global-theme-background);
   background-color: var(--sd-global-theme-primary);
 }
 .storybook-button--secondary {
   color: var(--sd-global-theme-primary);
   background-color: transparent;
-  border: 1px solid var(--sd-global-theme-primary);
 }
 .storybook-button--small {
   font-size: var(--sd-global-font-size-1);
