@@ -5,10 +5,10 @@
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   border: 0;
-  border-radius: 3em;
+  border-radius: var(--sd-global-border-radius-sm);
   cursor: pointer;
   display: inline-block;
-  line-height: 1;
+  line-height: var(--sd-global-line-heights-0);
 }
 .storybook-button--primary {
   color: white;
@@ -16,19 +16,19 @@
   background-color: var(--sd-global-theme-primary);
 }
 .storybook-button--secondary {
-  color: #333;
+  color: var(--sd-global-theme-primary);
   background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  border: 1px solid var(--sd-global-theme-primary);
 }
 .storybook-button--small {
-  font-size: 12px;
+  font-size: var(--sd-global-font-size-1);
   padding: 10px 16px;
 }
 .storybook-button--medium {
-  font-size: 14px;
+  font-size: var(--sd-global-font-size-2);
   padding: 11px 20px;
 }
 .storybook-button--large {
-  font-size: 16px;
+  font-size: var(--sd-global-font-size-2);
   padding: 12px 24px;
 }
