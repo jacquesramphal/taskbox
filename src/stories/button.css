@@ -5,31 +5,31 @@
   font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 600;
   border: 0;
-  border-radius: var(--sd-global-border-radius-sm);
+  border-radius: var(--global-border-radius-sm);
   cursor: pointer;
   display: inline-block;
-  line-height: var(--sd-global-line-heights-0);
-  border: 1px solid var(--sd-global-theme-primary);
+  line-height: var(--global-line-heights-0);
+  border: 1px solid var(--global-theme-primary);
 
 }
 
 .storybook-button--primary {
-  color: var(--sd-global-theme-background);
-  background-color: var(--sd-global-theme-primary);
+  color: var(--global-theme-background);
+  background-color: var(--global-theme-primary);
 }
 .storybook-button--secondary {
-  color: var(--sd-global-theme-primary);
+  color: var(--global-theme-primary);
   background-color: transparent;
 }
 .storybook-button--small {
-  font-size: var(--sd-global-font-size-1);
+  font-size: var(--global-font-size-1);
   padding: 10px 16px;
 }
 .storybook-button--medium {
-  font-size: var(--sd-global-font-size-2);
+  font-size: var(--global-font-size-2);
   padding: 11px 20px;
 }
 .storybook-button--large {
-  font-size: var(--sd-global-font-size-2);
+  font-size: var(--global-font-size-2);
   padding: 12px 24px;
 }

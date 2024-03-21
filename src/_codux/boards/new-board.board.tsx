@@ -5,6 +5,9 @@ import { Button } from '../../stories/Button.jsx';
 export default createBoard({
     name: 'New Board',
     Board: () => <div>
-        <Button label="Label" backgroundColor="red" /></div>,
+        <Button label="Label" backgroundColor="blue" primary={undefined} /></div>,
     isSnippet: true,
+    environmentProps: {
+        windowWidth: 300
+    }
 });
