@@ -7,8 +7,7 @@ export default createBoard({
     name: 'New Board',
     Board: () => <div>
 <div>
-        <Button size="large" label="Label" backgroundColor="none" primary={undefined} /></div>,
-        </div>,
+        <Button size="large" label="Label" backgroundColor="red" primary={undefined} /></div></div>,
     isSnippet: true,
     environmentProps: {
         windowWidth: 300
