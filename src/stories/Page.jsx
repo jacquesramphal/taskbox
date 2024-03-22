@@ -14,7 +14,7 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
     />
 
     <section>
-      <h2>VQA Workflow Demo</h2>
+      <h2>DQA Workflow Demo</h2>
       <p>
   There is an integrated workflow opportunity that with the right setup, we can
   leverage to reduce the gap between design and development during define
@@ -23,7 +23,7 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
 <p>The key touchpoints include:</p>
 <ul>
   <li>Design Estimation</li>
-  <li>Make VQA a part of the process from the start</li>
+  <li>Make DQA a part of the process from the start</li>
   <li>Initial Baseline setting with Figma and Storybook </li>
   <li>Continuous Integration with Figma Tokens synced with github </li>
   <li>Regression testing with Storybook Chromatic (or Virtuoso)</li>{" "}

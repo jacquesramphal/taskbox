@@ -3,7 +3,7 @@
   "platforms": {
     "css": {
       "transformGroup": "css",
-      "buildPath": "build/css/",
+      "buildPath": "src/assets/css/",
       "files": [{
         "destination": "_variables.css",
         "format": "css/variables"
@@ -11,7 +11,7 @@
     },
     "android": {
       "transforms": ["attribute/cti", "name/cti/snake", "color/hex", "size/remToSp", "size/remToDp"],
-      "buildPath": "build/android/src/main/res/values/",
+      "buildPath": "src/assets/android/src/main/res/values/",
       "files": [{
         "destination": "style_dictionary_colors.xml",
         "format": "android/colors"
